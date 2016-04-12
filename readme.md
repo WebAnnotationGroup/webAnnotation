@@ -30,13 +30,6 @@ WA uses the following technologies
 * [Browserify] L'app WA est écrite en ES6, donc nous avons besoin de Browserify
 * [Gulp] On build l'app WA avec Gulp
 * [JQuery] Certaines fonctions de JQuery sont utilisées dans l'app.
-* [ React ] React allows us to create graphical components of the app.
-* [ Openlayers3 ] Openlayers is used to manipulate images.
-* [ Redux ] WA app uses the architecture redux
-* [ Babel ] WA app is written in SS6 , so we need to Babel
-* [ Browserify ] WA app is written in SS6 , so we need Browserify
-* [ Gulp ] WA app is build with Gulp
-* [ JQuery ] Some features of jQuery are used in the app.
 
 ### Installation
 
