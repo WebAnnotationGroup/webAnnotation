@@ -19,11 +19,11 @@ export default class PresentationC extends React.Component {
         return (
             <div className="card hoverable">
                 <div className="card-image">
-                    <img id="previewImage" src="./images/WA&CO.png"/>
+                    <img id="previewImage" style={{width: '50%'}} src="./images/wagroup.png"/>
                 </div>
                 <div className="card-content">
-                  <p style={{color:"#e57373", fontSize:"30px"}}>Web Annotation utilise OpenLayers3.</p>
-                    <p style={{color:"#e57373"}}>Outil/librairie développé dans le cadre du projet WebAnnotation proposé
+                  <p style={{color:"#e57373", fontSize:"30px"}}>Web Annotation utilise OpenLayers3 et Materialize.</p>
+                    <p style={{color:"#e57373"}}>Outil/librairie développé par des étudiants de l'IUT de La Rochelle dans le cadre du projet WebAnnotation proposé
                         par le L3i (Laboratoire Informatique, Image et Interaction).</p>
                 </div>
                 <div className="card-action">
@@ -37,19 +37,19 @@ export default class PresentationC extends React.Component {
                         <tbody>
                         <tr>
                             <td style={{color:"#e57373"}}>Mathieu Guyot</td>
-                            <td style={{color:"#e57373"}}>Chef de projet, dev Web Annotation</td>
+                            <td style={{color:"#e57373"}}>Chef du projet et développeur Web Annotation</td>
                         </tr>
                         <tr>
                             <td style={{color:"#e57373"}}>Loïc Favrelière</td>
-                            <td style={{color:"#e57373"}}>Responsable d'édition, dev Web Annotation</td>
+                            <td style={{color:"#e57373"}}>développeur Web Annotation</td>
                         </tr>
                         <tr>
-                            <td style={{color:"#e57373"}}>Guillaume Russo</td>
-                            <td style={{color:"#e57373"}}>Responsable des tests, dev Web Cofishing</td>
+                            <td style={{color:"#e57373"}}>Cyrille Suire</td>
+                            <td style={{color:"#e57373"}}>Initiateur du projet Web Annotation</td>
                         </tr>
                         <tr>
-                            <td style={{color:"#e57373"}}>Baptiste Garcin</td>
-                            <td style={{color:"#e57373"}}>Responsable de communication, dev Cofishing</td>
+                            <td style={{color:"#e57373"}}>Axel Jean-Caurant</td>
+                            <td style={{color:"#e57373"}}>Initiateur du projet Web Annotation</td>
                         </tr>
                         </tbody>
                     </table>
