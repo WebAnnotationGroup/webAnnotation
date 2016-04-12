@@ -11,10 +11,10 @@ L'application Web Annotation se découpe en trois parties :
 * La visionneuse WA permet de visionner les annotations d'une image.
 
 ### Auteurs
-Mathieu Guyot (lead dev) -> mathieuguyot40@yahoo.fr
-Loïc Favrelière (dev) -> loic79.favreliere@gmail.com
-Cyrille Suire (initiateur du projet WA) -> cyrille.suire@univ-lr.fr
-Axel Jean-Caurant (initiateur du projet WA) -> axel.jean-caurant@univ-lr.fr
+* Mathieu Guyot (lead dev) -> mathieuguyot40@yahoo.fr
+* Loïc Favrelière (dev) -> loic79.favreliere@gmail.com
+* Cyrille Suire (initiateur du projet WA) -> cyrille.suire@univ-lr.fr
+* Axel Jean-Caurant (initiateur du projet WA) -> axel.jean-caurant@univ-lr.fr
 
 ### Version
 1.0.0
@@ -78,15 +78,16 @@ webAnnotation
 ---store...........dossier qui contient le store de l'application (REDUX)
 ---app.js..........script principal de l'application
 --styles...........dossier qui contient toutes les feuilles de style dde l'app
---index.html.......dossier html qui appelle l'app
+--index.html.......fichier html qui appelle l'app
 -gulpfile..........gulpfile qui permet de configurer la commande gulp
--package.json......dossier package.json propre au projet npm webAnnotation
+-package.json......fichier package.json propre au projet npm webAnnotation
 -readme.md.........readme en anglais
 -readmeFR.md.......readme en français
 ```
 
-License
-----
+### License
+
+See license.txt
 
    [React]: <https://facebook.github.io/react/>
    [Redux]: <http://redux.js.org/>

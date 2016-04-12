@@ -11,10 +11,10 @@ WA is divided into three parts:
 * the WA view tool allows viewing annotations of an image.
 
 ### Authors
-Mathieu Guyot (lead dev) -> mathieuguyot40@yahoo.fr
-Loïc Favrelière (dev) -> loic79.favreliere@gmail.com
-Cyrille Suire (initiator of WA project) -> cyrille.suire@univ-lr.fr
-Axel Jean-Caurant (initiator of WA project) -> axel.jean-caurant@univ-lr.fr
+* Mathieu Guyot (lead dev) -> mathieuguyot40@yahoo.fr
+* Loïc Favrelière (dev) -> loic79.favreliere@gmail.com
+* Cyrille Suire (initiator of WA project) -> cyrille.suire@univ-lr.fr
+* Axel Jean-Caurant (initiator of WA project) -> axel.jean-caurant@univ-lr.fr
 
 ### Version
 1.0.0
@@ -30,8 +30,6 @@ WA uses the following technologies
 * [Browserify] L'app WA est écrite en ES6, donc nous avons besoin de Browserify
 * [Gulp] On build l'app WA avec Gulp
 * [JQuery] Certaines fonctions de JQuery sont utilisées dans l'app.
-
-
 * [ React ] React allows us to create graphical components of the app.
 * [ Openlayers3 ] Openlayers is used to manipulate images.
 * [ Redux ] WA app uses the architecture redux
@@ -55,10 +53,6 @@ Note that installing openlayers via npm is quite capricious ...
 Be careful to check your version of npm, empty the cache and run npm in administrator.
 
 ### Development
-
-Vous voulez nous aider à développer webAnnotation ? Super !
-Web Annotation utilise gulp pour un développement rapide.
-Lancer la commande pour builder le projet (si la commande reste active, toute modification d'un script rebuild automatiquement le projet).
 
 Want to help us develop webAnnotation ? Great !
 Web Annotation use gulp for rapid development.
@@ -91,15 +85,16 @@ webAnnotation
 ---store...........folder that contains the store of the app (REDUX architecture)
 ---app.js..........Main script of the app
 --styles...........stylesheets of the app
---index.html.......
--gulpfile..........
--package.json......
--readme.md.........
--readmeFR.md.......
+--index.html.......html file which call the app
+-gulpfile..........gulpfile of the WA project
+-package.json......package.json file of the WA project
+-readme.md.........readme in english
+-readmeFR.md.......readme in french
 ```
 
-License
-----
+### License
+
+See license.txt
 
    [React]: <https://facebook.github.io/react/>
    [Redux]: <http://redux.js.org/>
